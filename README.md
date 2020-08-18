@@ -62,7 +62,7 @@ response:
 }
 ```
 this is how it looks like:  
-![2](uploads/612c86f2b1c9ff4bf73cdc97dfee00a3/2.png)
+![2](https://github.com/melawire/vtiger_leads_api/blob/master/img/2.png?raw=true)
 
 <a name="leadcreate"></a>  
 ### Create lead  
@@ -89,7 +89,7 @@ request:
 in response you will get all lead's fields  
 
 this is how it looks like:  
-![3](uploads/c1f68e9ffd2ae5379bf68e73f3dba687/3.png)
+![3](https://github.com/melawire/vtiger_leads_api/blob/master/img/3.png?raw=true)
 
 
 
