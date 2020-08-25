@@ -107,6 +107,6 @@ request:
 ```
 
 more options:  
-`SELECT * FROM Leads;`
-`SELECT id FROM Leads WHERE id IN ('10x31211', '10x31212');`,  
-`SELECT id FROM Leads WHERE country != ' ' LIMIT 100;`  
+- `SELECT * FROM Leads;`
+- `SELECT id FROM Leads WHERE id IN ('10x31211', '10x31212');`,  
+- `SELECT id FROM Leads WHERE country != ' ' LIMIT 100;`  
