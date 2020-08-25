@@ -5,6 +5,7 @@ The instruction was written for open source Vtiger CRM version 6.5.0.
 0. [ Preparation ](#prep)
 1. [ Authorisation ](#auth)
 2. [ Create lead ](#leadcreate)
+3. [ Get lead ](#read)
 
 <a name="prep"></a>  
 ### Preparation
@@ -92,4 +93,20 @@ this is how it looks like:
 ![3](https://github.com/melawire/vtiger_leads_api/blob/master/img/3.png?raw=true)
 
 
+<a name="read"></a>  
+### Get lead  
+You cna use 'query' operation for this. it functions like a standart mysql request so you can experiment with different conditions.
 
+request:  
+```json
+{
+    "operation": "query",
+    "sessionName": "[SessionName]",
+    "query": "SELECT id FROM Leads;"
+}
+```
+
+more options:  
+`SELECT * FROM Leads;`
+`SELECT id FROM Leads WHERE id IN ('10x31211', '10x31212');`,  
+`SELECT id FROM Leads WHERE country != ' ' LIMIT 100;`  
