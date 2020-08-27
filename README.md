@@ -95,7 +95,7 @@ this is how it looks like:
 
 <a name="read"></a>  
 ### Get lead  
-You cna use 'query' operation for this. it functions like a standart mysql request so you can experiment with different conditions.
+GET. You can use 'query' operation for this. it functions like a standart mysql request so you can experiment with different conditions.
 
 request:  
 ```json
@@ -106,7 +106,7 @@ request:
 }
 ```
 
-more options:  
-- `SELECT * FROM Leads;`
-- `SELECT id FROM Leads WHERE id IN ('10x31211', '10x31212');`,  
-- `SELECT id FROM Leads WHERE country != ' ' LIMIT 100;`  
+more query examples:  
+`SELECT * FROM Leads;`
+`SELECT id FROM Leads WHERE id IN ('10x31211', '10x31212');`,  
+`SELECT id FROM Leads WHERE country != ' ' LIMIT 100;`  
